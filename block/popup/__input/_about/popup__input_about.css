@@ -1,0 +1,6 @@
+.popup__input_about {
+    border: 1px solid black;
+    border-radius: 5px;
+    resize: none;
+    height: 250px;
+}

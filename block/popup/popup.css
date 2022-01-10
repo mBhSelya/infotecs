@@ -1,0 +1,11 @@
+.popup {
+    margin: 0 0 0 20px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    max-width: 350px;
+    max-height: 560px;
+    background-color: #eefff6;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+    position: relative;
+}

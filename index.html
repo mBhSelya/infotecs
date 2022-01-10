@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div>
+        <div class="content">
+            <div>
+                <table class="table">
+                    <thead>
+                        <th class="table__column"><p class="table__header-text">Имя</p>
+                            <button class="table__button-hide" type="button"></button>
+                            <button class="table__button-sort" type="button"></button>
+                        </th>
+                        <th class="table__column"><p class="table__header-text">Фамилия</p>
+                            <button class="table__button-hide" type="button"></button>
+                            <button class="table__button-sort" type="button"></button>
+                        </th>
+                        <th class="table__column"><p class="table__header-text">Описание</p> 
+                            <button class="table__button-hide" type="button"></button>
+                            <button class="table__button-sort" type="button"></button>
+                        </th>
+                        <th class="table__column"><p class="table__header-text">Цвет глаз</p>
+                            <button class="table__button-hide" type="button"></button>
+                            <button class="table__button-sort" type="button"></button>
+                        </th>
+                    </thead>
+                    <tbody class="table__body">
+                    </tbody>
+                </table>
+                <div class="pages">
+                </div>
+            </div>
+            <div class="popup popup_hidden">
+                <button type="button" class="popup__button-close"></button>
+                <p class="popup__header">Редактирование данных</p>
+                <p class="popup__text">Имя</p>
+                <input class="popup__input" type="text" id="#firstname" placeholder="Введите имя"></input>
+                <p class="popup__text">Фамилия</p>
+                <input class="popup__input" type="text" id="#lastname" placeholder="Введите фамилию"></input>
+                <p class="popup__text">Описание</p>
+                <textarea class="popup__input popup__input_about" type="text" id="#about" placeholder="Введите описание"></textarea>
+                <p class="popup__text">Цвет глаз</p>
+                <input class="popup__input" type="text" id="#eye-color" placeholder="Введите цвет глаз (на английском)"></input>
+                <button class="popup__button" type="button">Сохранить</button>
+            </div>
+        </div>
+        
+    </div>
+    <script type="module" src="./index.js"></script>
+</body>
+</html>

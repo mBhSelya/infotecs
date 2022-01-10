@@ -1,0 +1,18 @@
+.popup__button {
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px auto;
+    display: block;
+    height: 30px;
+    width: 200px;
+    cursor: pointer;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.popup__button:hover {
+    opacity: 0.5;
+}

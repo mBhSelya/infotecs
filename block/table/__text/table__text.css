@@ -1,0 +1,11 @@
+.table__text {
+    display: -webkit-box;
+    font-size: 15px;
+    line-height: 20px;
+    height: 40px;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}

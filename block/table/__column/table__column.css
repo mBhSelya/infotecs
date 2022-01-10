@@ -1,0 +1,7 @@
+.table__column {
+    border: 1px solid #007c08;
+    max-width: 200px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 3px;
+}

@@ -1,0 +1,15 @@
+.table__button-hide {
+    background-image: url(../../../images/eye-open.png);
+    height: 20px;
+    width: 22px;
+    border: none;
+    background-size: cover;
+    background-color: initial;
+    cursor: pointer;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.table__button-hide:hover {
+    opacity: 0.5;
+}
